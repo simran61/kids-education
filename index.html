@@ -6,10 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./globalStyles.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    hello world
+    <!-- nav bar starts -->
+    <nav class="flex justify_btw align_center">
+        <img src="./assests/images/logo.png" alt="logo" class="logo_img m_r_2">
+
+        <div class="menu_links">
+            <ul class="flex nav-menu">
+                <div class="dropdown">
+                    <button class="m_r_2 menu dropbtn">Classes <i class="fa-solid fa-angle-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#" class="flex">Age 5-6</a>
+                        <a href="#" class="flex">Age 7-9</a>
+                        <a href="#" class="flex">Age 10-12</a>
+                        <a href="#" class="flex">Age 13-18</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="m_r_2 menu dropbtn">Tutors <i class="fa-solid fa-angle-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#" class="flex">
+                            <img src="./assests/images/tutor1.jpg" alt="" class="menu_icon">
+                            <div class="menu_txt">
+                                Sanjay Kumar
+                            </div>
+                        </a>
+                        <a href="#" class="flex">
+                            <img src="./assests/images/tutor1.jpg" alt="" class="menu_icon">
+                            <div class="menu_txt">
+                                Sanjay Kumar
+                            </div>
+                        </a>
+                        <a href="#" class="flex">
+                            <img src="./assests/images/tutor1.jpg" alt="" class="menu_icon">
+                            <div class="menu_txt">
+                                Sanjay Kumar
+                            </div>
+                        </a>
+                        <a href="#" class="flex">
+                            <img src="./assests/images/tutor1.jpg" alt="" class="menu_icon">
+                            <div class="menu_txt">
+                                Sanjay Kumar
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="m_r_2 menu dropbtn">About Us</button>
+                </div>
+
+                <div class="dropdown">
+                    <button class="m_r_2 menu dropbtn">Pricing</button>
+                </div>
+
+                <div class="dropdown">
+                    <button class="m_r_2 menu dropbtn">Contact Us</button>
+                </div>
+            </ul>
+        </div>
+
+        <div class="nav_right nav-menu">
+            <span class="m_l_07">Login</span>
+            <button class="btn nav_btn m_l_07">Sign Up</button>
+        </div>
+    </nav>
+    <!-- nav bar ends -->
 </body>
 
 </html>
