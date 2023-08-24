@@ -68,3 +68,11 @@ nav {
 }
 /* dropdown ends */
 /* Nav bar ends */
+
+/* header starts */
+header img {
+  height: 86.8vh;
+  width: 100vw;
+  filter: opacity(0.6);
+}
+/* header ends */
